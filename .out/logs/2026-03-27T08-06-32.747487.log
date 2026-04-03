@@ -1,0 +1,6 @@
+{"L":"DEBUG","T":"2026-03-27T10:06:32.747655","C":"todoapp/main.go:31","M":"Starting ToDo application!"}
+{"L":"WARN","T":"2026-03-27T10:06:32.747937","C":"server/server.go:56","M":"start HTTP server","addr":":5050"}
+{"L":"DEBUG","T":"2026-03-27T10:09:22.459533","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"fee506bc-653c-437d-90fc-96f9cd08e75b","url":"/api/v1/users","time":"2026-03-27T08:09:22.459531"}
+{"L":"DEBUG","T":"2026-03-27T10:09:22.459599","C":"middleware/common.go:86","M":"<<<done HTTP request","request_id":"fee506bc-653c-437d-90fc-96f9cd08e75b","url":"/api/v1/users","status_code":404,"latency":"67.405µs"}
+{"L":"WARN","T":"2026-03-27T10:13:15.180938","C":"server/server.go:71","M":"shutdown HTTP server..."}
+{"L":"WARN","T":"2026-03-27T10:13:15.181441","C":"server/server.go:85","M":"HTTP server stopped"}

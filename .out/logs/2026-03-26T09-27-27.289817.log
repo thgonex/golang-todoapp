@@ -1,0 +1,2 @@
+{"L":"DEBUG","T":"2026-03-26T11:27:27.289922","C":"todoapp/main.go:30","M":"Starting ToDo application!"}
+{"L":"WARN","T":"2026-03-26T11:27:27.290116","C":"server/server.go:46","M":"start HTTP server","addr":":5050"}
