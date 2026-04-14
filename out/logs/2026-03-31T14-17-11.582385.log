@@ -1,0 +1,18 @@
+{"L":"DEBUG","T":"2026-03-31T17:17:11.582466","C":"todoapp/main.go:34","M":"initializing postgres connection pool"}
+{"L":"DEBUG","T":"2026-03-31T17:17:11.587786","C":"todoapp/main.go:45","M":"initializing feature","feature":"users"}
+{"L":"DEBUG","T":"2026-03-31T17:17:11.587873","C":"todoapp/main.go:50","M":"Initializing HTTP server"}
+{"L":"WARN","T":"2026-03-31T17:17:11.588004","C":"server/server.go:56","M":"start HTTP server","addr":":5050"}
+{"L":"DEBUG","T":"2026-03-31T17:17:16.794391","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"d6310131-6733-4029-8b51-5f78e06d0576","url":"/api/v1/users","time":"2026-03-31T14:17:16.794389"}
+{"L":"DEBUG","T":"2026-03-31T17:17:16.794450","C":"middleware/common.go:86","M":"<<<done HTTP request","request_id":"d6310131-6733-4029-8b51-5f78e06d0576","url":"/api/v1/users","status_code":404,"latency":"60.224µs"}
+{"L":"DEBUG","T":"2026-03-31T17:19:51.707243","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"241802a6-2f06-413d-b61b-445242307a8a","url":"/api/v1/users","time":"2026-03-31T14:19:51.707242"}
+{"L":"DEBUG","T":"2026-03-31T17:19:51.707300","C":"middleware/common.go:86","M":"<<<done HTTP request","request_id":"241802a6-2f06-413d-b61b-445242307a8a","url":"/api/v1/users","status_code":404,"latency":"58.172µs"}
+{"L":"DEBUG","T":"2026-03-31T17:19:52.621796","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"1a2941a4-ef04-4724-833f-6a16c69882d9","url":"/api/v1/users","time":"2026-03-31T14:19:52.621794"}
+{"L":"DEBUG","T":"2026-03-31T17:19:52.621840","C":"middleware/common.go:86","M":"<<<done HTTP request","request_id":"1a2941a4-ef04-4724-833f-6a16c69882d9","url":"/api/v1/users","status_code":404,"latency":"45.212µs"}
+{"L":"DEBUG","T":"2026-03-31T17:19:58.523499","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"0f4b6b00-1a99-46b8-b28f-fc297666cbde","url":"/api/v1/users","time":"2026-03-31T14:19:58.523498"}
+{"L":"DEBUG","T":"2026-03-31T17:19:58.523554","C":"middleware/common.go:86","M":"<<<done HTTP request","request_id":"0f4b6b00-1a99-46b8-b28f-fc297666cbde","url":"/api/v1/users","status_code":404,"latency":"55.714µs"}
+{"L":"DEBUG","T":"2026-03-31T17:21:06.572523","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"276e4e1b-7cbe-4d48-8f82-f4a27757ad98","url":"/api/v1users","time":"2026-03-31T14:21:06.572522"}
+{"L":"DEBUG","T":"2026-03-31T17:21:06.572586","C":"middleware/common.go:86","M":"<<<done HTTP request","request_id":"276e4e1b-7cbe-4d48-8f82-f4a27757ad98","url":"/api/v1users","status_code":404,"latency":"63.859µs"}
+{"L":"DEBUG","T":"2026-03-31T17:21:07.646871","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"ed0f07dd-fec9-4a61-93ce-a4cb02dfae84","url":"/api/v1users","time":"2026-03-31T14:21:07.646869"}
+{"L":"DEBUG","T":"2026-03-31T17:21:07.646947","C":"middleware/common.go:86","M":"<<<done HTTP request","request_id":"ed0f07dd-fec9-4a61-93ce-a4cb02dfae84","url":"/api/v1users","status_code":404,"latency":"77.404µs"}
+{"L":"WARN","T":"2026-03-31T17:22:41.961455","C":"server/server.go:71","M":"shutdown HTTP server..."}
+{"L":"WARN","T":"2026-03-31T17:22:41.961880","C":"server/server.go:85","M":"HTTP server stopped"}

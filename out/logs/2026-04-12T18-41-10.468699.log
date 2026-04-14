@@ -1,0 +1,6 @@
+{"L":"DEBUG","T":"2026-04-12T21:41:10.468835","C":"todoapp/main.go:34","M":"initializing postgres connection pool"}
+{"L":"DEBUG","T":"2026-04-12T21:41:10.477801","C":"todoapp/main.go:45","M":"initializing feature","feature":"users"}
+{"L":"DEBUG","T":"2026-04-12T21:41:10.477862","C":"todoapp/main.go:50","M":"Initializing HTTP server"}
+{"L":"WARN","T":"2026-04-12T21:41:10.477972","C":"server/server.go:56","M":"start HTTP server","addr":":5050"}
+{"L":"WARN","T":"2026-04-12T21:42:57.729006","C":"server/server.go:71","M":"shutdown HTTP server..."}
+{"L":"WARN","T":"2026-04-12T21:42:57.729272","C":"server/server.go:85","M":"HTTP server stopped"}

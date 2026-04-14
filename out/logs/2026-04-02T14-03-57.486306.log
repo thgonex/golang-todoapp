@@ -1,0 +1,6 @@
+{"L":"DEBUG","T":"2026-04-02T17:03:57.486425","C":"todoapp/main.go:34","M":"initializing postgres connection pool"}
+{"L":"DEBUG","T":"2026-04-02T17:03:57.492190","C":"todoapp/main.go:45","M":"initializing feature","feature":"users"}
+{"L":"DEBUG","T":"2026-04-02T17:03:57.492265","C":"todoapp/main.go:50","M":"Initializing HTTP server"}
+{"L":"WARN","T":"2026-04-02T17:03:57.492382","C":"server/server.go:56","M":"start HTTP server","addr":":5050"}
+{"L":"DEBUG","T":"2026-04-02T17:04:03.361094","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"41959cf6-b113-403d-93fc-02c4411efdb9","url":"/api/v1/users?limit=2&offset=1","http_method":"GET","time":"2026-04-02T14:04:03.361092"}
+{"L":"DEBUG","T":"2026-04-02T17:04:03.362628","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"41959cf6-b113-403d-93fc-02c4411efdb9","url":"/api/v1/users?limit=2&offset=1","status_code":200,"latency":"1.53429ms"}

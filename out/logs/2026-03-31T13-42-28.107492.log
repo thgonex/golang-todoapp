@@ -1,0 +1,14 @@
+{"L":"DEBUG","T":"2026-03-31T16:42:28.107615","C":"todoapp/main.go:34","M":"initializing postgres connection pool"}
+{"L":"DEBUG","T":"2026-03-31T16:42:28.113698","C":"todoapp/main.go:45","M":"initializing feature","feature":"users"}
+{"L":"DEBUG","T":"2026-03-31T16:42:28.113766","C":"todoapp/main.go:50","M":"Initializing HTTP server"}
+{"L":"WARN","T":"2026-03-31T16:42:28.113834","C":"server/server.go:56","M":"start HTTP server","addr":":5050"}
+{"L":"DEBUG","T":"2026-03-31T16:55:10.233901","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"b932f36a-5c80-4951-905a-052adb38d42a","url":"/api/v1/users","time":"2026-03-31T13:55:10.233900"}
+{"L":"DEBUG","T":"2026-03-31T16:55:10.233992","C":"middleware/common.go:86","M":"<<<done HTTP request","request_id":"b932f36a-5c80-4951-905a-052adb38d42a","url":"/api/v1/users","status_code":404,"latency":"91.467µs"}
+{"L":"DEBUG","T":"2026-03-31T16:55:21.197873","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"45a97c12-8da7-4b35-a5df-85ea2a55f950","url":"/api/v1/users","time":"2026-03-31T13:55:21.197872"}
+{"L":"DEBUG","T":"2026-03-31T16:55:21.197943","C":"middleware/common.go:86","M":"<<<done HTTP request","request_id":"45a97c12-8da7-4b35-a5df-85ea2a55f950","url":"/api/v1/users","status_code":404,"latency":"71.422µs"}
+{"L":"DEBUG","T":"2026-03-31T16:59:37.464137","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"ec5300e5-c9ba-4316-b6e3-cceb494f3925","url":"/api/v1/user","time":"2026-03-31T13:59:37.464135"}
+{"L":"DEBUG","T":"2026-03-31T16:59:37.464222","C":"middleware/common.go:86","M":"<<<done HTTP request","request_id":"ec5300e5-c9ba-4316-b6e3-cceb494f3925","url":"/api/v1/user","status_code":404,"latency":"85.963µs"}
+{"L":"DEBUG","T":"2026-03-31T16:59:45.070129","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"397f0a6f-c31b-4397-9144-b04911908641","url":"/api/v1/users","time":"2026-03-31T13:59:45.070128"}
+{"L":"DEBUG","T":"2026-03-31T16:59:45.070215","C":"middleware/common.go:86","M":"<<<done HTTP request","request_id":"397f0a6f-c31b-4397-9144-b04911908641","url":"/api/v1/users","status_code":404,"latency":"86.982µs"}
+{"L":"WARN","T":"2026-03-31T17:10:56.188710","C":"server/server.go:71","M":"shutdown HTTP server..."}
+{"L":"WARN","T":"2026-03-31T17:10:56.189038","C":"server/server.go:85","M":"HTTP server stopped"}
