@@ -1,0 +1,13 @@
+{"L":"DEBUG","T":"2026-04-12T22:05:24.064468","C":"todoapp/main.go:34","M":"initializing postgres connection pool"}
+{"L":"DEBUG","T":"2026-04-12T22:05:24.070591","C":"todoapp/main.go:45","M":"initializing feature","feature":"users"}
+{"L":"DEBUG","T":"2026-04-12T22:05:24.070667","C":"todoapp/main.go:50","M":"Initializing HTTP server"}
+{"L":"WARN","T":"2026-04-12T22:05:24.070784","C":"server/server.go:56","M":"start HTTP server","addr":":5050"}
+{"L":"DEBUG","T":"2026-04-12T22:05:27.438094","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"562c0caf-dc38-4ffa-b9ec-ccef02785999","url":"/api/v1/users/445554","http_method":"PATCH","time":"2026-04-12T19:05:27.438093"}
+{"L":"DEBUG","T":"2026-04-12T22:05:27.439657","C":"response/handler.go:59","M":"failed to patch user","request_id":"562c0caf-dc38-4ffa-b9ec-ccef02785999","url":"/api/v1/users/445554","error":"get user: user with id='445554': not found"}
+{"L":"DEBUG","T":"2026-04-12T22:05:27.439706","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"562c0caf-dc38-4ffa-b9ec-ccef02785999","url":"/api/v1/users/445554","status_code":404,"latency":"1.61307ms"}
+{"L":"DEBUG","T":"2026-04-12T22:05:29.571495","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"871fe77c-0710-4569-8796-f80e12b69bf9","url":"/api/v1/users/445554","http_method":"PATCH","time":"2026-04-12T19:05:29.571493"}
+{"L":"DEBUG","T":"2026-04-12T22:05:29.572158","C":"response/handler.go:59","M":"failed to patch user","request_id":"871fe77c-0710-4569-8796-f80e12b69bf9","url":"/api/v1/users/445554","error":"get user: user with id='445554': not found"}
+{"L":"DEBUG","T":"2026-04-12T22:05:29.572199","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"871fe77c-0710-4569-8796-f80e12b69bf9","url":"/api/v1/users/445554","status_code":404,"latency":"705.214µs"}
+{"L":"DEBUG","T":"2026-04-12T22:05:30.204774","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"dfdaca41-3a3a-4059-b151-8e71cde5ec1e","url":"/api/v1/users/445554","http_method":"PATCH","time":"2026-04-12T19:05:30.204773"}
+{"L":"DEBUG","T":"2026-04-12T22:05:30.205129","C":"response/handler.go:59","M":"failed to patch user","request_id":"dfdaca41-3a3a-4059-b151-8e71cde5ec1e","url":"/api/v1/users/445554","error":"get user: user with id='445554': not found"}
+{"L":"DEBUG","T":"2026-04-12T22:05:30.205181","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"dfdaca41-3a3a-4059-b151-8e71cde5ec1e","url":"/api/v1/users/445554","status_code":404,"latency":"408.456µs"}

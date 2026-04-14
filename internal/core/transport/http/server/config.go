@@ -27,4 +27,4 @@ func NewConfigMust() Config {
 		panic(err)
 	}
 	return config
-}	
+}

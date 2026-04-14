@@ -31,4 +31,3 @@ func GetIntPathValue(r *http.Request, key string) (int, error) {
 
 	return val, nil
 }
-

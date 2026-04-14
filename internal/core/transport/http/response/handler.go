@@ -13,13 +13,13 @@ import (
 
 type HTTPResponseHandler struct {
 	log *core_logger.Logger
-	rw http.ResponseWriter
+	rw  http.ResponseWriter
 }
 
-func NewHTTPResponseHandler(log *core_logger.Logger, rw http.ResponseWriter) *HTTPResponseHandler{
+func NewHTTPResponseHandler(log *core_logger.Logger, rw http.ResponseWriter) *HTTPResponseHandler {
 	return &HTTPResponseHandler{
 		log: log,
-		rw: rw,
+		rw:  rw,
 	}
 }
 
@@ -31,10 +31,14 @@ func (h *HTTPResponseHandler) JSONResponse(responseBody any, statusCode int) {
 	}
 }
 
-func (h *HTTPResponseHandler) ErrorResponse(err error, msg string)  {
+func (h *HTTPResponseHandler) NoContentResponse() {
+	h.rw.WriteHeader(http.StatusNoContent)
+}
+
+func (h *HTTPResponseHandler) ErrorResponse(err error, msg string) {
 	var (
 		statusCode int
-		logFunc func(string, ...zap.Field)
+		logFunc    func(string, ...zap.Field)
 	)
 
 	switch {
@@ -73,7 +77,7 @@ func (h *HTTPResponseHandler) PanicResponse(p any, msg string) {
 func (h *HTTPResponseHandler) errorResponse(msg string, statusCode int, err error) {
 	response := map[string]string{
 		"message": msg,
-		"error": err.Error(),
+		"error":   err.Error(),
 	}
 
 	h.JSONResponse(response, statusCode)

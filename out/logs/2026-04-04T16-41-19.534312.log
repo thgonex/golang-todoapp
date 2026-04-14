@@ -1,0 +1,12 @@
+{"L":"DEBUG","T":"2026-04-04T19:41:19.534410","C":"todoapp/main.go:34","M":"initializing postgres connection pool"}
+{"L":"DEBUG","T":"2026-04-04T19:41:19.540599","C":"todoapp/main.go:45","M":"initializing feature","feature":"users"}
+{"L":"DEBUG","T":"2026-04-04T19:41:19.540663","C":"todoapp/main.go:50","M":"Initializing HTTP server"}
+{"L":"WARN","T":"2026-04-04T19:41:19.540773","C":"server/server.go:56","M":"start HTTP server","addr":":5050"}
+{"L":"DEBUG","T":"2026-04-04T19:41:25.339361","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"b16a6d7c-5f87-44f7-99dc-1c771dad5849","url":"/api/v1/users","http_method":"GET","time":"2026-04-04T16:41:25.339360"}
+{"L":"DEBUG","T":"2026-04-04T19:41:25.340420","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"b16a6d7c-5f87-44f7-99dc-1c771dad5849","url":"/api/v1/users","status_code":200,"latency":"1.059373ms"}
+{"L":"DEBUG","T":"2026-04-04T19:41:33.510479","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"c0774fd9-635d-464f-ae7e-6a2c44ff73aa","url":"/api/v1/users/1","http_method":"DELETE","time":"2026-04-04T16:41:33.510477"}
+{"L":"DEBUG","T":"2026-04-04T19:41:33.510528","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"c0774fd9-635d-464f-ae7e-6a2c44ff73aa","url":"/api/v1/users/1","status_code":405,"latency":"50.183µs"}
+{"L":"DEBUG","T":"2026-04-04T19:41:34.418486","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"0511ec14-0aac-4ab5-9e96-71bc607d0e2d","url":"/api/v1/users/1","http_method":"DELETE","time":"2026-04-04T16:41:34.418484"}
+{"L":"DEBUG","T":"2026-04-04T19:41:34.418566","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"0511ec14-0aac-4ab5-9e96-71bc607d0e2d","url":"/api/v1/users/1","status_code":405,"latency":"81.373µs"}
+{"L":"WARN","T":"2026-04-04T19:42:13.056858","C":"server/server.go:71","M":"shutdown HTTP server..."}
+{"L":"WARN","T":"2026-04-04T19:42:13.057243","C":"server/server.go:85","M":"HTTP server stopped"}

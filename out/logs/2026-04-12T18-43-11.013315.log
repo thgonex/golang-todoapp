@@ -1,0 +1,28 @@
+{"L":"DEBUG","T":"2026-04-12T21:43:11.013484","C":"todoapp/main.go:34","M":"initializing postgres connection pool"}
+{"L":"DEBUG","T":"2026-04-12T21:43:11.023430","C":"todoapp/main.go:45","M":"initializing feature","feature":"users"}
+{"L":"DEBUG","T":"2026-04-12T21:43:11.023556","C":"todoapp/main.go:50","M":"Initializing HTTP server"}
+{"L":"WARN","T":"2026-04-12T21:43:11.023725","C":"server/server.go:56","M":"start HTTP server","addr":":5050"}
+{"L":"DEBUG","T":"2026-04-12T21:47:41.693024","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"4e9679c6-47bc-44c9-9684-5fc4a3e94492","url":"/api/v1/users","http_method":"POST","time":"2026-04-12T18:47:41.693022"}
+{"L":"DEBUG","T":"2026-04-12T21:47:41.708287","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"4e9679c6-47bc-44c9-9684-5fc4a3e94492","url":"/api/v1/users","status_code":201,"latency":"15.262304ms"}
+{"L":"DEBUG","T":"2026-04-12T21:47:54.590341","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"ca659804-75a2-4742-8bfa-05cd207f7078","url":"/api/v1/users","http_method":"POST","time":"2026-04-12T18:47:54.590340"}
+{"L":"DEBUG","T":"2026-04-12T21:47:54.603388","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"ca659804-75a2-4742-8bfa-05cd207f7078","url":"/api/v1/users","status_code":201,"latency":"13.045703ms"}
+{"L":"DEBUG","T":"2026-04-12T21:48:02.938284","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"44d1a6dc-5252-4d41-abee-4cf395e83107","url":"/api/v1/users","http_method":"POST","time":"2026-04-12T18:48:02.938283"}
+{"L":"DEBUG","T":"2026-04-12T21:48:02.953005","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"44d1a6dc-5252-4d41-abee-4cf395e83107","url":"/api/v1/users","status_code":201,"latency":"14.719871ms"}
+{"L":"DEBUG","T":"2026-04-12T21:48:15.326805","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"89cadd5e-c769-4cb7-82ee-04c861f51432","url":"/api/v1/users","http_method":"POST","time":"2026-04-12T18:48:15.326804"}
+{"L":"WARN","T":"2026-04-12T21:48:15.327128","C":"response/handler.go:59","M":"failed to create user","request_id":"89cadd5e-c769-4cb7-82ee-04c861f51432","url":"/api/v1/users","error":"validate user domain: invalid `PhoneNumber` format: invalid argument"}
+{"L":"DEBUG","T":"2026-04-12T21:48:15.327165","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"89cadd5e-c769-4cb7-82ee-04c861f51432","url":"/api/v1/users","status_code":400,"latency":"360.837µs"}
+{"L":"DEBUG","T":"2026-04-12T21:48:19.915652","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"12af2049-b100-4a84-aa50-bbe72c1cfdb2","url":"/api/v1/users","http_method":"POST","time":"2026-04-12T18:48:19.915650"}
+{"L":"WARN","T":"2026-04-12T21:48:19.915768","C":"response/handler.go:59","M":"failed to create user","request_id":"12af2049-b100-4a84-aa50-bbe72c1cfdb2","url":"/api/v1/users","error":"validate user domain: invalid `PhoneNumber` format: invalid argument"}
+{"L":"DEBUG","T":"2026-04-12T21:48:19.915793","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"12af2049-b100-4a84-aa50-bbe72c1cfdb2","url":"/api/v1/users","status_code":400,"latency":"142.956µs"}
+{"L":"DEBUG","T":"2026-04-12T21:48:25.530364","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"b363493a-cc66-42eb-a1a0-cb2d2e80085e","url":"/api/v1/users","http_method":"POST","time":"2026-04-12T18:48:25.530363"}
+{"L":"DEBUG","T":"2026-04-12T21:48:25.543149","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"b363493a-cc66-42eb-a1a0-cb2d2e80085e","url":"/api/v1/users","status_code":201,"latency":"12.784478ms"}
+{"L":"DEBUG","T":"2026-04-12T21:48:30.835625","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"6606da98-ea0d-4f9b-ab83-adb0d2149c1f","url":"/api/v1/users","http_method":"GET","time":"2026-04-12T18:48:30.835623"}
+{"L":"DEBUG","T":"2026-04-12T21:48:30.836845","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"6606da98-ea0d-4f9b-ab83-adb0d2149c1f","url":"/api/v1/users","status_code":200,"latency":"1.219806ms"}
+{"L":"DEBUG","T":"2026-04-12T21:51:22.012436","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"46a2e541-a5ca-4dd8-b639-38b39d6d01ce","url":"/api/v1/users/2","http_method":"GET","time":"2026-04-12T18:51:22.012430"}
+{"L":"DEBUG","T":"2026-04-12T21:51:22.013467","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"46a2e541-a5ca-4dd8-b639-38b39d6d01ce","url":"/api/v1/users/2","status_code":200,"latency":"1.035987ms"}
+{"L":"DEBUG","T":"2026-04-12T21:51:29.774719","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"cf72e59c-164a-49a5-a12d-2208a9f62443","url":"/api/v1/users/2","http_method":"GET","time":"2026-04-12T18:51:29.774717"}
+{"L":"DEBUG","T":"2026-04-12T21:51:29.775430","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"cf72e59c-164a-49a5-a12d-2208a9f62443","url":"/api/v1/users/2","status_code":200,"latency":"710.951µs"}
+{"L":"DEBUG","T":"2026-04-12T21:51:30.867417","C":"middleware/common.go:79","M":">>>incoming HTTP request","request_id":"257ebb73-2c2d-4856-8422-c219ee47e61f","url":"/api/v1/users/2","http_method":"GET","time":"2026-04-12T18:51:30.867415"}
+{"L":"DEBUG","T":"2026-04-12T21:51:30.868127","C":"middleware/common.go:87","M":"<<<done HTTP request","request_id":"257ebb73-2c2d-4856-8422-c219ee47e61f","url":"/api/v1/users/2","status_code":200,"latency":"711.126µs"}
+{"L":"WARN","T":"2026-04-12T21:54:02.022754","C":"server/server.go:71","M":"shutdown HTTP server..."}
+{"L":"WARN","T":"2026-04-12T21:54:02.023194","C":"server/server.go:85","M":"HTTP server stopped"}

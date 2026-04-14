@@ -14,8 +14,8 @@ func NewRoute(
 	handler http.HandlerFunc,
 ) Route {
 	return Route{
-		Method: method,
-		Path: path,
+		Method:  method,
+		Path:    path,
 		Handler: handler,
 	}
 }
